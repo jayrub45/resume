@@ -1,45 +1,38 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    max-width: 1000px;
-    display: flex;
-    align-items: flex-start;
-    font-size: 12pt;
-}
-
-#left_side {
-    flex: 1 1 600px;
-    padding: 1em;
-    line-height: 1.5em;
-}
-
-#right_side {
-    border-left: rgb(0, 0, 0) solid 1px;
-    flex: 500px;
-    padding: 1em;
-    line-height: 1.0em;
-}
-
-h1 {
-    border-bottom: solid;
-}
-
-h2 {
-    text-align: center;
-}
-
-h2 {
-    position: relative;
-    top: 12px;
-    border-bottom: rgb(0, 0, 0) solid;
-}
-
-#title {
-    text-align: center;
-    font-size: 24px;
-}
-
-p {
-    margin-top: 0px;
-    margin-bottom: .5em;
-}
+            font-family: cursive;
+            margin: 10%;
+            max-width: 1000px;
+            display: flex -moz-inline-stack;
+            align-items: flex-start;
+            font-size: 12pt;
+            background-image: url("http://ww1.prweb.com/prfiles/2015/07/30/12878888/YU_goldblue%20Logo.png");
+            background-position: center;
+            background-size: 500px;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-color: coral;
+            background-position-x: right;
+        }
+        
+       
+        
+        h1 {
+            text-align: center;
+            border-bottom: solid;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        h2 {
+            position: relative;
+            top: 12px;
+            border-bottom: rgb(0, 0, 0) solid;
+        }
+        
+        p {
+            margin-top: 0px;
+            margin-bottom: .1em;
+        }
+    
