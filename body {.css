@@ -1,5 +1,5 @@
 body {
-            font-family: cursive;
+            font-family:'Times New Roman', Times, serif ;
             margin: 10%;
             max-width: 1000px;
             display: flex -moz-inline-stack;
@@ -10,7 +10,7 @@ body {
             background-size: 500px;
             background-repeat: no-repeat;
             background-position: bottom;
-            background-color: coral;
+            background-color:springgreen ;
             background-position-x: right;
         }
         
